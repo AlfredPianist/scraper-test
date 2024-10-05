@@ -71,3 +71,7 @@ poetry run python scrape.py
 ### Output
 
 The scraper will generate a CSV file containing the scraped medical tests. You can find this file in the project directory.
+
+### Cloudflare bypass
+
+This could be done using external services like [zenrows](https://www.zenrows.com/) which uses residential proxies (which aren't that cheap) and uses anticaptcha methods so that we can solve the problem of bypassing Cloudflare. There are other services as well. Check out [this blog post](https://substack.thewebscraping.club/p/cloudflare-web-unblocker-benchmark).
